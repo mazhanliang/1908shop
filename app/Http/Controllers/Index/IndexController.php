@@ -15,7 +15,7 @@ class IndexController extends Controller
   
 
     public function index(){
-            echo 123123;
+      
         //$data=cache('data'.'goods_id');
         $data=Redis::get('data'.'goods_id');
  
